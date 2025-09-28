@@ -9,12 +9,12 @@ import Link from 'next/link';
 //imports the date management component
 import Date from '../components/date';
 //imports the function to get and sort all blog post data
-import { getSortedPostsData } from '../lib/posts-json';
+import { getSortedPostsData } from '../lib/posts-firebase';
 
 // This function runs at build time to fetch data for static generation
 export async function getStaticProps() {
 //Defines the variable that stores the sorted blog post data
-  const allPostsData = getSortedPostsData();
+  const allPostsData = await getSortedPostsData();
 //Returns the blog post data as props to the home page
   return {
     props: {

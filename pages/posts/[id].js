@@ -5,7 +5,7 @@ import Head from 'next/head';
 // Import Date component for formatting and displaying post dates
 import Date from '../../components/date';
 // Import functions for retrieving post data and generating static paths
-import { getAllPostIds, getPostData } from '../../lib/posts-json';
+import { getAllPostIds, getPostData } from '../../lib/posts-firebase';
 // Import CSS styling for posts
 import utilStyles from '../../styles/utils.module.css';
 
@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
 // Next.js function that runs at build time to generate static paths for dynamic routes
 export async function getStaticPaths() {
   // Get all available post IDs to pre-generate static pages for each post
-  const paths = getAllPostIds();
+  const paths = await getAllPostIds();
   // Returns the static paths collected from post IDs for the dynamically created routes
   return {
     paths,
