@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Games I've been playing",
+    "date": "2025-09-14",
+    "image": "/images/7DtD_Zombie.png",
+    "content": "<p>I've lately been playing <strong>Fallout: New Vegas</strong>. Unfortunately, it's not aged well, and I've had a ton of crashes.</p><br><p>I also have been playing <strong>Cataclysm: Dark Days Ahead</strong> and <strong>FreeCiv</strong>, those are cool!</p>",
+    "id": "0"
+  },
+  {
+    "title": "Noot noot!",
+    "date": "2025-09-13",
+    "image": "/images/XCOM_Battle.png",
+    "content": "<p>The pengin <strong>Pingu</strong> is notable for his vocalizations: <strong>Noot noot!</strong></p>",
+    "id": "1"
+  },
+  {
+    "title": "Completely new post!!",
+    "date": "2025-09-19",
+    "image": "/images/Shipbreaker_Fun.png",
+    "content": "<p>I wonder if Phaser can be used in this context. Could make some seriously cool animations for games that way!</p>",
+    "id": "2"
+  }
+]

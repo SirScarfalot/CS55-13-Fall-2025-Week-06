@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 3px;
+  margin: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: darkorange;
+  font-size: 22px;
+  background-color: lightblue;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+ 
+a {
+  color: red;
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+ 
+img {
+  max-width: 100%;
+  display: block;
+}
